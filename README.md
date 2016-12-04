@@ -35,7 +35,10 @@ To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the
 (For windows and graphically in OSX/Linux run visualsearch.py as program (I think))
 
 ### I want to edit these experiments, what do I do? 
+
 Open up visualsearch.py or attentionalblink.py and edit the files there. I will comment these with time and add more structure. More experiments may be added. If something is confusing, let me know via the issues here. 
 
+### Why are these just for demonstration purposes? 
 
+I have not optimized the timings of the code and some testing needs to be done to make sure that ms are not lost here and there. 
 
