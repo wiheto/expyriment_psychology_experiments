@@ -21,10 +21,10 @@ Recommend to install python via anaconda (https://www.continuum.io/downloads - t
 ### How to use: 
 
 Step 1: 
-Download/clone the files here. 
+Download/clone the files here. (If you don't use git, the zip files is [here](https://github.com/wiheto/expyriment_psychology_experiments/archive/master.zip))
 
 Step 2: 
-Make sure you download everything in "requires"
+Make sure you download everything in "requires" above
 
 Step 3: 
 Navigate to specific experiment directory (e.g. visualsearch). 
