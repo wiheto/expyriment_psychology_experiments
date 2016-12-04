@@ -28,8 +28,9 @@ Step 3:
 Navigate to specific experiment directory (e.g. visualsearch). 
 
 Step 4:
-To run, in terminal (OSX/Linux) type: python visualsearch.py 
-In windows (never tried) run visualsearch.py. 
+To run, in terminal (OSX/Linux) type: `python visualsearch.py` 
+
+(For windows and graphically in OSX/Linux run visualsearch.py as program (I think))
 
 ### I want to edit these experiments, what do I do? 
 Open up visualsearch.py or attentionalblink.py and edit the files there. I will comment these with time and add more structure. If something is confusing, let me know via the issues here. 
