@@ -15,7 +15,7 @@ The experiments here take the results from the input and plot the results as a f
 
 Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas and matplotlib installed as well)
 
-*Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But they *should* work for python2 and let me know if something doesn't work).* 
+*Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
 
 ### How to use: 
@@ -36,9 +36,13 @@ To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the
 
 ### I want to edit these experiments, what do I do? 
 
-Open up visualsearch.py or attentionalblink.py and edit the files there. I will comment these with time and add more structure. More experiments may be added. If something is confusing, let me know via the issues here. 
+Open up visualsearch.py or attentionalblink.py and edit the files there. There are some comments, but it could be better. 
+
+I will comment the cod  a bite more with time and add more structure (a little chaotic at the moment). If you get stuck, let me know. 
+
+More experiments may be added with time. If something is confusing, let me know via the issues here. 
 
 ### Why are these just for demonstration purposes? 
 
-I have not optimized the timings of the code and some testing needs to be done to make sure that ms are not lost here and there. 
+I have not optimized the timings of the code and some testing needs to be done to make sure that millieseconds are not lost here and there. This was not a priotiy for me at the moment (as this is to show conceptual what these experiments are). But if for serious research use, some work on timings should be done (and I may get round to it at sometime).  
 
