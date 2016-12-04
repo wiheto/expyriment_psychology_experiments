@@ -1,9 +1,9 @@
 # expyriment_psychology_experiments
 A couple of experiments using expyriment. 
 
-These are more for demonstration purposes than research purposes. 
+These are more for demonstration purposes than research purposes and were created for teaching. 
 
-The experiments here take the results and plot the results as a figure results.png. 
+The experiments here take the results from the input and plot the results as a figure results.png. If there is already saved data, it take the average data of the previous subject(s), averages it, and plots against the new subject.  
 
 ### Requires: 
 
