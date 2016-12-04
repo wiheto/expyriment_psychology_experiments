@@ -15,7 +15,7 @@ The experiments here take the results from the input and plot the results as a f
 
 Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas and matplotlib installed as well)
 
-*Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But they *should* work for python2 and let me know if something doesn't work).* 
+*Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
 
 ### How to use: 
