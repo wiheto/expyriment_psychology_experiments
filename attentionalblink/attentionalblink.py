@@ -27,7 +27,7 @@ for stimrows in stim.iterrows():
     [trial.set_factor("l" + str(i), n) for i,n in enumerate(trlLetters)]
     trial.set_factor('distance', stimrows[1][-2])
     trial.set_factor('correct', stimrows[1][-1])
-    block.add_trial(trial, copies=3)
+    block.add_trial(trial, copies=2)
     exp.add_block(block)
 block.shuffle_trials()
 
