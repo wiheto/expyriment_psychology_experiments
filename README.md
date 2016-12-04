@@ -1,9 +1,9 @@
 # expyriment_psychology_experiments
 A couple of experiments using expyriment. 
 
-These are more for demonstration purposes than research purposes. 
+These are more for demonstration purposes than research purposes and were created for teaching. 
 
-The experiments here take the results and plot the results as a figure results.png. 
+The experiments here take the results from the input and plot the results as a figure results.png. If there is already saved data, it take the average data of the previous subject(s), averages it, and plots against the new subject.  
 
 ### Requires: 
 
@@ -21,10 +21,10 @@ Recommend to install python via anaconda (https://www.continuum.io/downloads - t
 ### How to use: 
 
 Step 1: 
-Download/clone the files here. 
+Download/clone the files here. (If you don't use git, the zip files is [here](https://github.com/wiheto/expyriment_psychology_experiments/archive/master.zip))
 
 Step 2: 
-Make sure you download everything in "requires"
+Make sure you download everything in "requires" above
 
 Step 3: 
 Navigate to specific experiment directory (e.g. visualsearch). 
@@ -35,7 +35,10 @@ To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the
 (For windows and graphically in OSX/Linux run visualsearch.py as program (I think))
 
 ### I want to edit these experiments, what do I do? 
+
 Open up visualsearch.py or attentionalblink.py and edit the files there. I will comment these with time and add more structure. More experiments may be added. If something is confusing, let me know via the issues here. 
 
+### Why are these just for demonstration purposes? 
 
+I have not optimized the timings of the code and some testing needs to be done to make sure that ms are not lost here and there. 
 
