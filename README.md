@@ -3,6 +3,8 @@ A couple of experiments using expyriment.
 
 These are more for demonstration purposes than research purposes. 
 
+The experiments here take the results and plot the results as a figure results.png. 
+
 ### Requires: 
 
 - Expyriment (http://www.expyriment.org/ - python3 version: https://github.com/expyriment/expyriment/tree/python3)
