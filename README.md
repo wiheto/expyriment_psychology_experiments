@@ -1,4 +1,4 @@
-# expyriment_psychology_experimets
+# expyriment_psychology_experiments
 A couple of experiments using expyriment. 
 
 These are more for demonstration purposes than research purposes. 
