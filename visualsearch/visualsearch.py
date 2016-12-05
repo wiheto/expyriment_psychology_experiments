@@ -15,7 +15,7 @@ epy.control.defaults.initialize_delay = False
 epy.control.defaults.window_size = (1920,1060)
 
 #Get premade RSVP stimuli. Should be of rows = trials, columns = stimuli. second to last column = lags of stimuli. last column = 1 or 2 stimuli present.
-stim = pd.read_csv('/home/william/projects/experiments/visualsearch/stim/vs.csv')
+stim = pd.read_csv('./stim/vs.csv')
 wordsPerTrials = stim.shape[1]-2
 
 block = epy.design.Block(name='block')
