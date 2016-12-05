@@ -9,19 +9,23 @@ There are versions of the visual search and attentional blink paradigms. Results
 
 ### How hard is it to get these to work on my computer: 
 
-It can be tricky to get the programs to work on your computer. However, once Expyriment is set up, it becomes considerably easy to run the different experiments. 
+It can be tricky to get the programs to work on your computer. 
+
+However, once Expyriment is set up, it becomes considerably easy to run the different experiments. 
 
 __Requires:__
 
-- Expyriment and all its requirements (python3 version of expyriment is here: https://github.com/expyriment/expyriment/tree/python3)
-- Python3.x (2.7 should be fine, see below) 
-- Pandas 
-- Matplotlib
+- python3.5 (2.7 should be fine, see below) 
+- pandas 
+- matplotlib
 - numpy
 - pygame (http://www.pygame.org/hifi.html)
-- pyOpenGl (http://pyopengl.sourceforge.net/)
+- PyOpenGl (http://pyopengl.sourceforge.net/)
+- Expyriment (For python3, python3 version is needed: https://github.com/expyriment/expyriment/tree/python3 - and manual install required)
 
-Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk)
+Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk) 
+
+The python3 version of Expyriment needs to be downloaded manually. This can then be installed with "pip install". 
 
 *Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
@@ -35,7 +39,7 @@ Step 2:
 Make sure you download everything in "requires" above
 
 Step 3: 
-Navigate to specific experiment directory (e.g. visualsearch). 
+Navigate to specific experiment directory (e.g. visualsearch). __This is important!__
 
 Step 4:
 To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the experiment is called (e.g. attentionalblink)
