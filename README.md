@@ -21,7 +21,7 @@ __Requires:__
 - pygame (http://www.pygame.org/hifi.html)
 - pyOpenGl (http://pyopengl.sourceforge.net/)
 
-Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib installed as well. pygame and pyOpenGL can be installed by pip or conda -> tutorial: https://www.youtube.com/watch?v=YJC6ldI3hWk)
+Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk)
 
 *Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
