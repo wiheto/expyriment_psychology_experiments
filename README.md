@@ -19,13 +19,15 @@ __Requires:__
 - pandas 
 - matplotlib
 - numpy
-- pygame (http://www.pygame.org/hifi.html)
-- PyOpenGl (http://pyopengl.sourceforge.net/)
+- pygame 
+- PyOpenGl 
 - Expyriment (For python3, python3 version is needed: https://github.com/expyriment/expyriment/tree/python3 - and manual install required)
 
-Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk) 
+I recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. In the terminal write `pip install pygame`. 
 
-The python3 version of Expyriment needs to be downloaded manually. This can then be installed with "pip install". 
+The python3 version of Expyriment needs to be downloaded manually. This can then be installed in the terminal (OSX/Linux, at least) with: `pip install path/to/expyriment.tar.gz` <- you obviously change the path/to/expyriment part to where expyriment was downloaded. 
+
+Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk) Still confused? let me know via email or issues.  
 
 *Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
