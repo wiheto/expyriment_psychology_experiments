@@ -13,13 +13,15 @@ It can be tricky to get the programs to work on your computer. However, once Exp
 
 __Requires:__
 
-- Expyriment and all its requirements (see http://www.expyriment.org/ - python3 version of expyriment is here: https://github.com/expyriment/expyriment/tree/python3)
+- Expyriment and all its requirements (python3 version of expyriment is here: https://github.com/expyriment/expyriment/tree/python3)
 - Python3.x (2.7 should be fine, see below) 
 - Pandas 
 - Matplotlib
 - numpy
+- pygame (http://www.pygame.org/hifi.html)
+- pyOpenGl (http://pyopengl.sourceforge.net/)
 
-Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib installed as well)
+Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib installed as well. pygame and pyOpenGL can be installed by pip or conda -> tutorial: https://www.youtube.com/watch?v=YJC6ldI3hWk)
 
 *Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
