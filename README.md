@@ -8,7 +8,7 @@ These are more for demonstration purposes than research purposes and were create
 
 There are versions of the visual search and attentional blink paradigms. Results are automatically saved in results.csv and can be plotted automatically to plot.png.
 
-Visual search is commented and easiest to use. Attentional blink will be cleaned up soon
+Visual search is commented and easiest to use. Attentional blink will be cleaned up soon.
 
 ### How hard is it to get these to work on my computer?
 
@@ -47,12 +47,10 @@ Step 3:
 Navigate to specific experiment directory (e.g. visualsearch). __This is important!__
 
 Step 4:
-To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the experiment is called (e.g. attentionalblink)
-
-(For windows and graphically in OSX/Linux run visualsearch.py as program (I think))
+To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the experiment is called (e.g. attentionalblink). (For windows and graphically in OSX/Linux run visualsearch.py as program (I think, never used windows))
 
 Step 5:
-To plot the results, in terminal (OSX/Linux) type: `python plot_visualsearch.py` and it creates a plot automatically
+To plot the results, in terminal (OSX/Linux) type: `python plot_visualsearch.py` and it creates a plot `plot.png` automatically.
 
 
 ### I want to edit these experiments, what do I do?
