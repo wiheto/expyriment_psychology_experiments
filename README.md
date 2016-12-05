@@ -3,17 +3,31 @@ A couple of experiments using expyriment.
 
 These are more for demonstration purposes than research purposes and were created for teaching. 
 
-The experiments here take the results from the input and plot the results as a figure results.png. If there is already saved data, it take the average data of the previous subject(s), averages it, and plots against the new subject.  
+### What do these results do. 
 
-### Requires: 
+There are versions of the visual search and attentional blink paradigms. Results are automatically saved in results.csv and are plotted in plot.png. If there is already saved data, it takes the average data of the previous subject(s), averages it, and plots against the new subject.  
 
-- Expyriment (http://www.expyriment.org/ - python3 version: https://github.com/expyriment/expyriment/tree/python3)
-- Python3.x (2.7 should be fine, see below) 
-- Pandas 
-- Matplotlib
+### How hard is it to get these to work on my computer: 
+
+It can be tricky to get the programs to work on your computer. 
+
+However, once Expyriment is set up, it becomes considerably easy to run the different experiments. 
+
+__Requires:__
+
+- python3.5 (2.7 should be fine, see below) 
+- pandas 
+- matplotlib
 - numpy
+- pygame 
+- PyOpenGl 
+- Expyriment (For python3, python3 version is needed: https://github.com/expyriment/expyriment/tree/python3 - and manual install required)
 
-Recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas and matplotlib installed as well)
+I recommend to install python via anaconda (https://www.continuum.io/downloads - then you get pandas, numpy and matplotlib, pyOpenGL installed automatically. pygame can be installed by pip or conda. In the terminal write `pip install pygame`. 
+
+The python3 version of Expyriment needs to be downloaded manually. This can then be installed in the terminal (OSX/Linux, at least) with: `pip install path/to/expyriment.tar.gz` <- you obviously change the path/to/expyriment part to where expyriment was downloaded. 
+
+Confusing? Anaconda tutorial can be seen here: https://www.youtube.com/watch?v=YJC6ldI3hWk) Still confused? let me know via email or issues.  
 
 *Note that I have written these in python3 and (at least when I installed expyriment, the python3 was on a developers branch. So this may get tricky. But it all __should__ work for python2 and let me know if something doesn't work - also if it works!).* 
 
@@ -27,7 +41,7 @@ Step 2:
 Make sure you download everything in "requires" above
 
 Step 3: 
-Navigate to specific experiment directory (e.g. visualsearch). 
+Navigate to specific experiment directory (e.g. visualsearch). __This is important!__
 
 Step 4:
 To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the experiment is called (e.g. attentionalblink)
@@ -38,7 +52,7 @@ To run, in terminal (OSX/Linux) type: `python visualsearch.py` - or whatever the
 
 Open up visualsearch.py or attentionalblink.py and edit the files there. There are some comments, but it could be better. 
 
-I will comment the cod  a bite more with time and add more structure (a little chaotic at the moment). If you get stuck, let me know. 
+I will comment the code a bite more with time and add more structure (a little chaotic at the moment). If you get stuck, let me know. 
 
 More experiments may be added with time. If something is confusing, let me know via the issues here. 
 
