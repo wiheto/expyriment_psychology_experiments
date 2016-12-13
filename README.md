@@ -12,9 +12,7 @@ Visual search is commented and easiest to use. Attentional blink will be cleaned
 
 ### How hard is it to get these to work on my computer?
 
-It can be tricky to get the programs to work on your computer.
-
-However, once expyriment is set up, it becomes considerably easy to run the different experiments.
+It can be a little tricky to get expyriment to work on your computer. However, once expyriment is set up, it becomes considerably easy to run the different experiments.
 
 __Requires:__
 
